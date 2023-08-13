@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Playfair+Display:wght@500&display=swap');
+:root {
+  --color-background-dark: #20262E;
+  --color-background-light: #DCDCDC;
+}
 
 * {
 	box-sizing: border-box;
@@ -13,10 +16,6 @@ body {
 	line-height: 1.5;
 }
 
-.left ul {
-	list-style: none;
-}
-
 .main {
 	max-width: 1000px;
 	min-height: 100px;
@@ -28,18 +27,20 @@ body {
 .left {
 	grid-area: left;
 	color: white;
-	background-color: #20262E;
+  background-color: var(--color-background-dark);
 	text-align: center;
 }
 
 .right {
 	grid-area: right;
-	background-color: #DCDCDC;
+  background-color: var(--color-background-light);
 	padding-left: 30px;
+	padding-right: 30px;
 }
 
 .left ul {
 	text-align: left;
+	list-style: none;
 }
 
 .education h2 {
@@ -56,8 +57,13 @@ h2 {
 }
 
 .left div {
-	margin-top: 33px;
+	margin-top: 45px;
 }
+
+#second {
+	margin-top: 30px;
+}
+
 
 
 
