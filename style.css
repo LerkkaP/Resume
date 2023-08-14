@@ -8,6 +8,7 @@
 }
 
 body {
+	margin: 0;
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -19,7 +20,7 @@ body {
 
 .main {
 	max-width: 1000px;
-	min-height: 100px;
+  min-height: 100vh; 
 	display: grid;
 	grid-template-areas: "left right";
 	grid-template-columns: 1.2fr 3fr;
@@ -35,8 +36,7 @@ body {
 .right {
 	grid-area: right;
   background-color: var(--color-background-light);
-	padding-left: 30px;
-	padding-right: 30px;
+	padding: 0 30px;
 }
 
 .left ul {
@@ -45,25 +45,20 @@ body {
 }
 
 .education h2 {
-	margin-right: 2.2em;
+	margin-right: 0.9em;
 }
 
 .contact h2 {
-	margin-right: 3.5em;
+	margin-right: 2.2em;
 }
 
 .skills h2 {
-	margin-right: -0.2em;
+	margin-right: 3.4em;
 }
 
 .right {
 	padding-top: 10px;
 }
-
-/*h2 {
-	text-decoration: underline;
-	text-underline-offset: 0.3em;
-}*/
 
 .left div {
 	margin-top: 45px;
@@ -111,27 +106,18 @@ a:hover {
 	background-color: black;
 }
 
-.contact hr {
-	margin-top: -23px;
-	margin-right: 0;
-	text-align: right;
-	width: 82%;
-}
-
-.education hr {
-	margin-top: -23px;
-	margin-right: 0;
-	text-align: right;
-	width: 82%;
-}
-
+.contact hr,
+.education hr,
 .skills hr {
-	margin-top: -23px;
-	margin-right: 0;
-	text-align: right;
-	width: 82%;
+  margin-top: -23px;
+  margin-right: 0;
+  text-align: right;
+  width: 82%;
 }
 
+.education h2, .contact h2, .skills h2, .work h2 {
+	letter-spacing: 1.3px;
+}
 
 
 
