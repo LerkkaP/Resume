@@ -60,10 +60,10 @@ body {
 	padding-top: 10px;
 }
 
-h2 {
+/*h2 {
 	text-decoration: underline;
 	text-underline-offset: 0.3em;
-}
+}*/
 
 .left div {
 	margin-top: 45px;
@@ -103,7 +103,34 @@ a:hover {
 	padding-bottom: 20px;
 }
 
+.work hr {
+	position: relative;
+	top: -21px;
+	height: 1px;
+	border-width: 0;
+	background-color: black;
+}
 
+.contact hr {
+	margin-top: -23px;
+	margin-right: 0;
+	text-align: right;
+	width: 82%;
+}
+
+.education hr {
+	margin-top: -23px;
+	margin-right: 0;
+	text-align: right;
+	width: 82%;
+}
+
+.skills hr {
+	margin-top: -23px;
+	margin-right: 0;
+	text-align: right;
+	width: 82%;
+}
 
 
 
