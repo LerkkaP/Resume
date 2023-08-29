@@ -1,109 +1,119 @@
-@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&family=Playfair+Display:wght@500&display=swap');:root {
-  --color-background-dark: #20262E;
-  --color-background-light: #DCDCDC;
+@import url("https://fonts.googleapis.com/css2?family=EB+Garamond&family=Playfair+Display:wght@500&display=swap");
+:root {
+  --color-background-dark: #35495e; /* Dark bluish-gray */
+  --color-background-light: #f5f5f5; /* Light gray */
 }
 
 * {
-	box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-	margin: 0;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	font-family: Arial, Helvetica, sans-serif;
-	line-height: 1.8;
-	letter-spacing: 0.2px;
-	font-size: 13px;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.8;
+  letter-spacing: 0.2px;
+  font-size: 13px;
 }
 
 .main {
-	max-width: 1000px;
-  min-height: 100vh; 
-	display: grid;
-	grid-template-areas: "left right";
-	grid-template-columns: 1.2fr 3fr;
+  max-width: 1000px;
+  min-height: 100vh;
+  display: grid;
+  grid-template-areas: "left right";
+  grid-template-columns: 1.2fr 3fr;
 }
 
 .left {
-	grid-area: left;
-	color: white;
+  grid-area: left;
+  color: white;
   background-color: var(--color-background-dark);
-	text-align: center;
+  text-align: center;
 }
 
 .right {
-	grid-area: right;
+  grid-area: right;
   background-color: var(--color-background-light);
-	padding: 0 30px;
+  padding: 0 30px;
 }
 
 .left ul {
-	text-align: left;
-	list-style: none;
+  text-align: left;
+  list-style: none;
 }
 
 .education h2 {
-	margin-right: 0.9em;
+  margin-right: 0.9em;
 }
 
 .contact h2 {
-	margin-right: 2.2em;
+  margin-right: 2.2em;
 }
 
 .skills h2 {
-	margin-right: 3.4em;
+  margin-right: 3.4em;
 }
 
 .right {
-	padding-top: 10px;
+  padding-top: 10px;
 }
 
 .left div {
-	margin-top: 45px;
+  margin-top: 45px;
 }
 
 #second {
-	margin-top: 30px;
+  margin-top: 30px;
 }
 
 a {
-	text-decoration: none;
-	color: white;
+  text-decoration: none;
+  color: white;
 }
 
 a:hover {
-	text-decoration: none;
-	color: black;
+  text-decoration: none;
+  color: black;
 }
 
 .intro h1::first-line {
-	font-size: 40px;
+  font-size: 40px;
 }
 
 .intro h1 {
-	position: relative;
-	letter-spacing: 1.3px;
+  position: relative;
+  letter-spacing: 1.3px;
 }
 
 .intro h1 i {
-	font-size: 20px;
-	font-weight: normal;
-	position: absolute;
-	top: 50px; 
+  font-size: 20px;
+  font-weight: normal;
+  position: absolute;
+  top: 50px;
 }
 
 .intro h1 {
-	padding-bottom: 20px;
+  padding-bottom: 20px;
+}
+
+.work {
+  margin-top: -20px;
+}
+
+.intro p {
+  margin-top: -15px;
+  padding-bottom: 10px;
 }
 
 .work hr {
-	position: relative;
-	top: -21px;
-	height: 1px;
-	border-width: 0;
-	background-color: black;
+  position: relative;
+  top: -21px;
+  height: 1px;
+  border-width: 0;
+  background-color: black;
 }
 
 .contact hr,
@@ -115,26 +125,13 @@ a:hover {
   width: 82%;
 }
 
-.education h2, .contact h2, .skills h2, .work h2 {
-	letter-spacing: 1.3px;
+.education h2,
+.contact h2,
+.skills h2,
+.work h2 {
+  letter-spacing: 1.3px;
 }
 
 .title {
-	font-size: 14px;
+  font-size: 14px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
